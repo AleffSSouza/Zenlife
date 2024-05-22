@@ -20,5 +20,7 @@ flex-direction: row;
 .card img {
 border-radius: 8px;
 width: 225px;
+padding: 10px;
+align-items: center;
 
 }

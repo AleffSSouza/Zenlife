@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import ImagemDireita from '../assets/img2.png'
 
-const ContactContainer = styled.div`
+const infoContainer = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 50px 20px;
@@ -55,24 +55,15 @@ const Button = styled.button`
     }
 `
 
-function ContactPage(){
+function infoPage(){
     return(
-            <ContactContainer>
-                <FormContainer>
-                    <Form>
-                        <SearchInput type="text" placeholder="Nome" />
-                        <SearchInput type="email" placeholder="E-mail" />
-                        <SearchInput type="text" placeholder= "Assunto" />
-                        <SearchInput type="text" placeholder= "Celular" />
-                        <SearchInput type="textarea" placeholder= "Mensagem" />
-                        <Button type="submit">Enviar</Button>
-                    </Form>    
+            <infoContainer>  
                         <ImageContainer>
+                        
                             <img src={ImagemDireita} alt="Descrição da Imagem" />
                         </ImageContainer>
-                </FormContainer>
-            </ContactContainer>
+            </infoContainer>
     )
 }
 
-export default ContactPage
+export default infoPage

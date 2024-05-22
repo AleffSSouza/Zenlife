@@ -3,7 +3,7 @@ import styles from "./Card.module.css";
 function Card({ id }) {
     return(
 
-        
+    <div>
         <section className={styles.card}>
             
             <a 
@@ -13,6 +13,7 @@ function Card({ id }) {
                 <img src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`} alt="Capa"/>
             </a>
         </section>
+     </div> 
     );  
 }
 
