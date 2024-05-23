@@ -1,26 +1,8 @@
-.cards {
-    display: flex;
-flex-direction: row;
-}
 .card {
-    display: flex;
-    padding: 30px;
-    color: black;
-    font-family: Asap;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 1000;
-    line-height: 30px;
-    text-align: left;
+    padding: 35px;
     max-width: 100%;
-    word-break: break-word;
+    
 
 }
 
-.card img {
-border-radius: 8px;
-width: 225px;
-padding: 10px;
-align-items: center;
 
-}

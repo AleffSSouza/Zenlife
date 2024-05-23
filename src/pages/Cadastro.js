@@ -12,7 +12,7 @@ function CadastroPage(){
     return(
         <div>
             <Header />
-            <Banner />
+            {/* <Banner /> */}
             <h1>Cadastro de depoimentos</h1>
             <DepoimentoForm setRefresh={setRefresh}/>
             <h1>Depoimentos Cadastrados</h1>

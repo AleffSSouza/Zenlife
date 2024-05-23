@@ -3,21 +3,19 @@ import BackImage from "../assets/fundoprojetodep1.jpg"
 
 const BannerContainer = styled.div`
     background-image: url(${BackImage});
-    height: 1000px;
-    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
-
-    color: #BLACK;
-    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.50);
-    font-family: Asap;
-    font-size: 80px;
-    @media (max-width: 768px) {
-      font-size: 24px;
-      text-align:center;
-      align-items: center;
-      justify-content: center;
+    align-items: center;
+    }
+    
+    @media screen and (max-width: 768px) {
+    .background {
+      height: 50vh;
+    }
+    }
 `;
 
 

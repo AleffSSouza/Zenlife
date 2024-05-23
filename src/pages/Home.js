@@ -12,6 +12,8 @@ import Bloco1 from '../components/Bloco1';
 import Card from '../components/Card';
 import styled from "styled-components";
 import Noticias from '../components/Noticias';
+import Informacoes from '../components/Informacoes';
+
 
 const Cards = styled.div`
 display: flex;
@@ -69,16 +71,18 @@ function Home(){
                 ]}
             />
             
-            <TitleProjetos>ODS 3 E O QUE É A DEPRESSÃO</TitleProjetos>
-            <Cards>
+            {/* <TitleProjetos>ODS 3 E O QUE É A DEPRESSÃO</TitleProjetos> */}
+            {/* <Cards>
             <Card id="LMOynUxsGHo"/>
             <Card id="gYx1fCOUpAw"/>
             <Card id="WpQHMxT-9y4"/>
             <Card id="DUdhc0hs6tU"/>
             <Card id="l16BskCD0cM"/>
-            </Cards>
+            </Cards> */}
+            <Informacoes/>
           
             <Footer />
+
         </div>
 
     );

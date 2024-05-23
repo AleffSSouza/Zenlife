@@ -9,7 +9,7 @@ const HeaderContainer = styled.header`
     background-color: #7dbde4;
     color: #fff;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 2px 20px;
     font-style: italic;
     font-size:1.5em;
 `;
@@ -18,7 +18,6 @@ const HeaderContainer = styled.header`
 function Header(){
     return(
         <HeaderContainer>
-            <div>Zen Life</div>
             <NavBar/>
         </HeaderContainer>
     );

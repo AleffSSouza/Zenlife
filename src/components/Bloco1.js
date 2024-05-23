@@ -1,28 +1,30 @@
 import React from "react";
 import styled from "styled-components";
+import fundo from "../assets/fundoprojetodep.jpg";
+
 
 const MainContainer = styled.div`
   position: relative;
-  height: 1000px;
+  padding: 30px;
+  height: 830px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 20 1 100%;
-  background-color: #d1eaee;
+  background-image: url(${fundo});
+  background-size: cover;
   @media (max-width: 768px) {
+    height: 600px;
   }
 `;
 
 const SecondContainer = styled.div`
-background: rgba( 105, 168, 244, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
-border-radius: 50px;
-border: 2px solid rgba( 255, 255, 255, 0.18 );
-`;
-
-const MainImageStyled = styled.img`
+  background: rgba( 105, 168, 244, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 50px;
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -54,10 +56,11 @@ const TextMain = styled.div`
 
 const TextMainH1 = styled.h1`
   color: #BLACK;
-  text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.50);
   font-family: Asap;
-  font-size: 40px;
-  text-align: left;
+  font-size: 80px;
+  text-align: center;
+  font-family: Asap;
+  font-weight: bold;
   @media (max-width: 768px) {
     font-size: 24px;
     text-align:center;
@@ -77,6 +80,7 @@ const TextMainP = styled.p`
   text-align: left;
   max-width: 100%;
   word-break: break-word;
+  padding: 10px;
   @media (max-width: 768px) {
     font-size: 12px;
     text-align:center;
@@ -84,7 +88,6 @@ const TextMainP = styled.p`
     justify-content: center;
   }
 `;
-
 const Main = () => {
   return (
     <MainContainer>
@@ -109,7 +112,13 @@ const Main = () => {
         </TextMainP>
         </SecondContainer>
       </TextMain>
+
+      
     </MainContainer>
+
+    
+
+    
   );
 };
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import ImagemDireita from '../assets/img2.png'
+import ImagemDireita from '../assets/Logo.png'
 
 const ContactContainer = styled.div`
     display: flex;
@@ -19,12 +19,12 @@ const FormContainer = styled.div`
 
 const ImageContainer = styled.div`
     display: flex;
-    flex: 2;//
+    padding-top: 4rem;
+    padding-right: 50rem;
     img{
-        width: 300px;
-        height: 400px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        border-radius: 5px;
     }
 `
 const Form = styled.form`
@@ -58,7 +58,7 @@ const Button = styled.button`
 function ContactPage(){
     return(
             <ContactContainer>
-                {/* <FormContainer>
+                <FormContainer>
                     <Form>
                         <SearchInput type="text" placeholder="Nome" />
                         <SearchInput type="email" placeholder="E-mail" />
@@ -70,7 +70,7 @@ function ContactPage(){
                         <ImageContainer>
                             <img src={ImagemDireita} alt="Descrição da Imagem" />
                         </ImageContainer>
-                </FormContainer> */}
+                </FormContainer>
             </ContactContainer>
     )
 }

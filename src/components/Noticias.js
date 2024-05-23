@@ -26,7 +26,10 @@ const Noticia = styled.div`
 const Section4H1 = styled.h1`
   position: relative;
   text-align: center;
-  font-size: 40px;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: Asap;
+
   @media (max-width: 768px) {
     font-size: 24px;
     text-align: center;

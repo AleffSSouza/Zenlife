@@ -9,7 +9,6 @@ function Contato(){
     return(
         <div>
             <Header/>
-            <Banner />
             <ContactForm />
             <Footer/>
         </div>
