@@ -6,13 +6,14 @@ import fundo from "../assets/fundoprojetodep.jpg";
 const MainContainer = styled.div`
   position: relative;
   padding: 30px;
-  height: 830px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 20 1 100%;
   background-image: url(${fundo});
   background-size: cover;
+
   @media (max-width: 768px) {
     height: 600px;
   }
@@ -55,6 +56,7 @@ const TextMain = styled.div`
 `;
 
 const TextMainH1 = styled.h1`
+  margin-top: 5rem;
   color: #BLACK;
   font-family: Asap;
   font-size: 80px;
@@ -115,10 +117,6 @@ const Main = () => {
 
       
     </MainContainer>
-
-    
-
-    
   );
 };
 

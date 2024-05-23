@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom'
-import logo from "../assets/Logo.png";
+import logo from "../assets/logosemfundo.png";
 
 const LogoImg = styled.img`
 display: flex;
 padding-top: 4rem;
-padding-right: 100rem;
+padding-right: 1000rem;
 padding: 5px 500px;
-width: 5rem;
-height: 5rem;
+width: 6rem;
+height: 6rem;
 object-fit: cover;
 
 `;
@@ -18,7 +18,7 @@ const NavBarContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2em 0;
+    padding: 0.5em -5rem;
 `;
 
 const StyledLink = styled(Link)`

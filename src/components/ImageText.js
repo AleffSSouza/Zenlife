@@ -88,6 +88,7 @@ function ImageText({images}){
                 <img src={image.src} alt={image.alt} />
                 <Text>{image.text}</Text>
                 <Button as="a" href="https://www.example.com" >Saiba Mais</Button>
+
             </ImageContainer>
             ))}
         </Container>

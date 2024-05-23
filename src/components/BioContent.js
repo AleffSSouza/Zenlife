@@ -3,8 +3,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import styled from 'styled-components';
 import Header from '../components/Header';
-import Banner from '../components/Banner';
 import Footer from '../components/Footer';
+import Bloco1 from '../components/Bloco1'
 
 const Container = styled.div`
   max-width: 1000px;
@@ -91,7 +91,7 @@ function BioContent() {
   return (
     <div>
       <Header />
-      <Banner />
+      <Bloco1/>
       <Container>
         <Content>
           <Image src={`http://localhost:5000/uploads/${character.foto}`} alt={character.nome} />

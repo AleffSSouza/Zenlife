@@ -19,6 +19,7 @@ function App() {
         <Route path="/contato" element={<Contato />}/>
         <Route path="/bio/:id" element={<Bio />}/>
         <Route path="/cadastro" element={<Cadastro />}/>
+
       </Routes>
     </Router>
   );

@@ -1,23 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
-import noticiasImage1 from "../assets/Banner1.jpg";
-import noticiasImage2 from "../assets/Banner1.jpg";
-import noticiasImage3 from "../assets/Banner1.jpg";
+import noticiasImage1 from "../assets/noticiaimg1.jpg";
+import noticiasImage2 from "../assets/noticiaimg2.jpg";
+import noticiasImage3 from "../assets/noticiaimg3.jpg";
+import { Link } from 'react-router-dom';
 
 const Section4Container = styled.section`
-  height: 800px;
+  height: 1200px;
   display: flex;
   flex: 20 1 100%;
-  background-color: white;
+  background-color: #d1eaee;
   @media (max-width: 768px) {
     flex-direction: column;
 	height: 1000px;
+  
   }
 `;
 
 const Noticia = styled.div`
   width: 100%;
-  height: 100%;
+  height: 80%;
   @media (max-width: 768px) {
     padding: 20px;
   }
@@ -54,7 +56,7 @@ const GroupNoticias = styled.div`
 `;
 
 const BoxNoticias = styled.div`
-  background-color: #17413A;
+  background-color: #1b4072;
   width: 40%;
   height: 100%;
   margin-left: 10px;
@@ -75,7 +77,7 @@ const BoxNoticias = styled.div`
 const BoxNoticiasImg = styled.img`
   margin-top: 40px;
   width: 90%;
-  height: 70%;
+  height: 50%;
   border-radius: 10px;
   @media (max-width: 768px) {
     width: 50%;
@@ -98,6 +100,49 @@ const BoxNoticiasP = styled.p`
     margin-bottom: 30px;
   }
 `;
+const Linker = styled.a`
+  text-decoration: none;
+  color:#fff;
+  &: hover {
+    text-decoration: none;
+  }
+  background-color: #rrggbbaa;
+  justify-content: center;
+  margin-top: 5%;
+  @media (max-width: 768px){
+    padding: 5px;
+    font-size: 12px;
+    padding-right: 5px;
+    margin-right: 50px;
+}`;
+
+const Button = styled.button`
+margin-top: 20px;
+margin-left: 140px;
+transition: all 0.3s ease-in-out;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+padding-block: 0.3px;
+padding-inline: 1.25rem;
+background-color: #001f4e;
+border-radius: 9999000px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+color: #ffff;
+font-weight: bold;
+border: 3px solid #ffffff4d;
+outline: none;
+overflow: hidden;
+font-size: 16px;
+text-decoration: none;
+
+@media (max-width: 768px) {
+    margin-top: 1rem;
+
+    }
+`;
+
 
 function Noticias() {
   return (
@@ -108,18 +153,22 @@ function Noticias() {
           <BoxNoticias>
             <BoxNoticiasImg src={noticiasImage1} alt="" />
             <BoxNoticiasP>
-              Inaugurado Parque Urbano com Foco na Preservação Ambiental e Bem-Estar Comunitário
+            Médico fala sobre diferença entre níveis baixos de testosterona e depressão
+              <Button> <Linker href="https://www.em.com.br/saude/2024/05/6862667-medico-fala-sobre-diferenca-entre-niveis-baixos-de-testosterona-e-depressao.html">   <p>Clique aqui para a noticia</p></Linker></Button>
             </BoxNoticiasP>
           </BoxNoticias>
           <BoxNoticias>
-            <BoxNoticiasImg src={noticiasImage2} alt="" /><BoxNoticiasP>
-              Nova Ciclovia Conecta Bairros e Promove Mobilidade Sustentável
+            <BoxNoticiasImg src={noticiasImage2} alt="" />
+            <BoxNoticiasP>
+            A onda de agressão a professores no mundo: 'Ficar perto da porta para sair correndo'
+              <Button> <Linker href="https://www.bbc.com/portuguese/articles/c51n99rp3lpo">   <p>Clique aqui para a noticia</p></Linker></Button>
             </BoxNoticiasP>
           </BoxNoticias>
           <BoxNoticias>
             <BoxNoticiasImg src={noticiasImage3} alt="" />
             <BoxNoticiasP>
-              Projeto Piloto de Habitação Social Integra Energias Renováveis e Eficiência Energética
+            Depressão em idosos: por que doença ainda é difícil de ser diagnosticada
+              <Button> <Linker href="https://www.bbc.com/portuguese/articles/c1eyeegvq39o">   <p>Clique aqui para a noticia</p></Linker></Button>
             </BoxNoticiasP>
           </BoxNoticias>
         </GroupNoticias>

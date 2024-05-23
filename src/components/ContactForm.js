@@ -12,7 +12,7 @@ const ContactContainer = styled.div`
 const FormContainer = styled.div`
     text-align: center;
     flex: 3;//
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 
 `
@@ -28,7 +28,12 @@ const ImageContainer = styled.div`
     }
 `
 const Form = styled.form`
-
+// background: rgba( 0, 150, 255, 1 );
+// box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+// backdrop-filter: blur( 20px );
+// -webkit-backdrop-filter: blur( 20px );
+// border-radius: 10px;
+// border: 1px solid rgba( 255, 255, 255, 0.18 );
 `
 
 const Input = styled.input`
@@ -37,10 +42,10 @@ const Input = styled.input`
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
 `
 const SearchInput = styled(Input)`
-    width: 50%;
+    width: 100%;
     margin: 0 auto 20px auto;
 `
 const Button = styled.button`
@@ -67,9 +72,9 @@ function ContactPage(){
                         <SearchInput type="textarea" placeholder= "Mensagem" />
                         <Button type="submit">Enviar</Button>
                     </Form>    
-                        <ImageContainer>
+                        {/* <ImageContainer>
                             <img src={ImagemDireita} alt="Descrição da Imagem" />
-                        </ImageContainer>
+                        </ImageContainer> */}
                 </FormContainer>
             </ContactContainer>
     )

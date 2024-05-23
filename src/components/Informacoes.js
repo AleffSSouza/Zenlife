@@ -7,6 +7,8 @@ const Section2Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #376097;
+
 `;
 
 const InformacoesStyle = styled.div`
@@ -90,7 +92,7 @@ const Button = styled(Link)`
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   padding-block: 1rem;
   padding-inline: 1.25rem;
-  background-color: #136d58;
+  background-color: #001f4e;
   border-radius: 9999px;
   display: flex;
   align-items: center;
@@ -119,11 +121,28 @@ function Informacoes() {
     <Section2Container>
       <InformacoesStyle>
         <Informacao>
-          <InformacaoH1>A ODS 3, parte dos Objetivos de Desenvolvimento Sustentável da ONU,</InformacaoH1>
+          <InformacaoH1>Principais Causas da Depressão
+</InformacaoH1>
           <InformacaoP>
-          concentra-se na promoção da saúde e do bem-estar, incluindo a saúde mental. Seu objetivo é assegurar uma vida saudável e promover o bem-estar para todas as pessoas, em todas as idades. Isso inclui acesso equitativo a serviços de saúde de qualidade, prevenção de doenças, redução da mortalidade materna e infantil, combate às doenças transmissíveis, como HIV/AIDS e malária, e promoção da saúde mental. A ODS 3 busca garantir que todos tenham acesso a serviços de saúde mental adequados, reduzindo o estigma em torno das questões de saúde mental e promovendo a conscientização e o suporte emocional para aqueles que precisam.
+<ul> 
+<li>Fatores Biológicos:</li>
+<li>Neuroquímica: Desequilíbrios nos neurotransmissores, como serotonina, dopamina e norepinefrina, estão associados à depressão.</li>
+<li>Genética: Há uma predisposição genética para a depressão, com histórico familiar aumentando o risco.</li>
+<li>Fatores Psicológicos:</li>
+<li>Traumas e Abusos: Experiências traumáticas, como abuso emocional, físico ou sexual, podem contribuir significativamente para o desenvolvimento da depressão.</li>
+<li>Estresse Crônico: Estressores contínuos, como problemas financeiros, conflitos familiares ou pressão no trabalho, podem levar à depressão.</li>
+<li>Fatores Sociais:</li>
+<li>Isolamento Social: A falta de apoio social e conexões significativas pode aumentar o risco de depressão.</li>
+<li>⦁	Problemas Relacionais: Conflitos interpessoais, divórcio ou a perda de um ente querido podem ser gatilhos para a depressão.</li>
+
+
+
+
+
+
+</ul>
           </InformacaoP>
-          <Button to="/intuitos">
+          <Button to="/InfoBloco1">
             Saiba mais
             <Icon viewBox="0 0 24 24" class="icon">
               <path clip-rule="evenodd"

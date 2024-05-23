@@ -19,19 +19,18 @@ align-items: center;
 
 `;
 
-const titulo = styled.p`
+const Titulo = styled.p`
 color: #BLACK;
 text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.50);
-font-family: Asap;
-font-size: 80px;
-
+font-family: Blippo, fantasy;
+font-size: 100px;
 `
 
 
 function Banner(){
     return(
         <BannerContainer>
-            <titulo>Zen Life</titulo>
+            <Titulo>Zen Life</Titulo>
         </BannerContainer>
         
     );

@@ -7,8 +7,7 @@ const QuoteContainer = styled.section`
     color: #BLACK;
     font-family: Asap;
     font-size: 80px;
-    background-color: #d1eaee;
-    margin-top: 10rem ;
+    background-color: white;
     font-weight: bold;
 
 
@@ -28,7 +27,8 @@ function QuoteSection(){
     return(
         <QuoteContainer>
             <blockquote>
-                Ongs parceiras
+                ONGs ODS 3
+
             </blockquote>
         </QuoteContainer>
     );

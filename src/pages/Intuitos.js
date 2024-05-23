@@ -1,15 +1,16 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import CarouselOng from '../components/CarouselOng'
+import BlocoInt from '../components/BlocoInt'
 
-function Episodios(){
+function Intuitos(){
     return(
         <div>
             <Header/>
-            <h1>Intuito</h1>
-
+            <BlocoInt/>
             <Footer/>
         </div>
     );
 }
-export default Episodios;
+export default Intuitos;

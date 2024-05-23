@@ -1,5 +1,6 @@
 import styles from "./Card.module.css";
 
+
 function Card({ id }) {
     return(
 
