@@ -40,18 +40,18 @@ Para configurar e executar o projeto localmente, siga estas etapas:
    git clone https://github.com/AleffSSouza/Zenlife
    ``
 2. Navegue até a pasta do projeto e instale o node se ja estiver dentro da pasta:
-   ``
+   ``sh
    cd Zenlife
    npm install
    ``
 3. Instale as dependencias necessarias:
-   ``
+   ``sh
    npm i  react-dom
    npm i styled-components
    npm i swiper
    ``
 4. Inicie o terminal na pasta do projeto, e rode os comandos para iniciar o Back-end e front end.
-   ``
+   ``sh
    cd zenlife(caso já não abra na pasta)
    npm start
    cd Backend
