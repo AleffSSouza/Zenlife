@@ -14,11 +14,10 @@ O projeto foi desenvolvido para divulgar trabalho de ons e prestar um apoio em m
 
 ### Front-end
 
-
 - **React**: Biblioteca JavaScript para a construção de interfaces de usuário.
 - **Html CSS**: Para estilização, formatação e design responsivo.
 - **Javascript**: Gerenciamento de rotas.
-- **bootstrap**: Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações webs, usando HTML, CSS e JavaScript,.
+- **bootstrap**: Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript,.
 
 ### Back-end
 
@@ -36,27 +35,27 @@ Para configurar e executar o projeto localmente, siga estas etapas:
 
 ### Instalação
 
-1. Clone o repositório do projeto.
-   ``sh
-   git clone https://github.com/AleffSSouza/Zenlife
-   ``
-2. Navegue até a pasta do projeto e instale o node se ja estiver dentro da pasta.
-   ``sh
-   cd Zenlife
-   npm install
-   ``
-3. Instale as dependências necessárias.
-   ``sh
-   npm i  react-dom
-   npm i styled-components
-   npm i swiper
-   ``
-4. Inicie o terminal na pasta do projeto e rode os comandos para iniciar o Back-end e front end.
-   ``sh
-   cd zenlife(caso já não abra na pasta)
-   npm start
-   cd Backend
-   npm run dev
-   ``
+1. Clone o repositório do projeto:
+   ```sh
+   git clone https://github.com/AleffSSouza/Zenlife
+   ```
+2. Navegue até a pasta do projeto e instale o node se ja estiver dentro da pasta:
+   ```sh
+   cd Zenlife
+   npm install
+   ```
+3. Instale as dependencias necessarias:
+   ```sh
+   npm i  react-dom
+   npm i styled-components
+   npm i swiper
+   ```
+4. Inicie o terminal na pasta do projeto, e rode os comandos para iniciar o Back-end e front end.
+   ```sh
+   cd zenlife(caso já não abra na pasta)
+   npm start
+   cd Backend
+   npm run dev
+   ```
 5. Abra o navegador e acesse `http://localhost:3000` para visualizar o site.
 
