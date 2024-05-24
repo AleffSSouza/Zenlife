@@ -7,6 +7,7 @@ const FooterContainer = styled.footer`
 background-color: #0e2430;
 padding: 1em;
 color: #fff;
+display: flex;
 justify-content: space-between;
 align-items: center;
 `;
@@ -16,9 +17,9 @@ const FooterInfo = styled.div`
 `;
 
 const FooterImg = styled.img`
-width: 10%;
-height: 5%;
-margin-left: auto;
+  margin-top: 40px;
+  width: 10%;
+  height: 5%;
 `;
 
 
@@ -30,10 +31,11 @@ function Footer() {
         <p>Copyright 2023 Zen Life. All rights reserved.</p>
         <p>Contact us: <a href="mailto:info@zenlife.com">info@zenlife.com</a></p>
       </FooterInfo>
+      <Icon />
       <FooterImg src={LogoFooter} alt="" />
       
 
-      <Icon />
+
     </FooterContainer>
   );
 }
