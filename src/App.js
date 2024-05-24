@@ -10,7 +10,6 @@ import GlobalStyles from './styles/GlobalStyle'
 import Infobloco1 from './pages/Infobloco1'
 import Infobloco2 from './pages/Infobloco2'
 
-
 function App() {
   return (
     <Router>
@@ -25,9 +24,6 @@ function App() {
         <Route path="/cadastro" element={<Cadastro />}/>
         <Route path="/infobloco1" element={<Infobloco1 />}/>
         <Route path="/infobloco2" element={<Infobloco2 />}/>
-
-
-
 
       </Routes>
     </Router>
