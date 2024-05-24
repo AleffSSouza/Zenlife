@@ -36,7 +36,7 @@ Para configurar e executar o projeto localmente, siga estas etapas:
 ### Instalação
 
 1. Clone o repositório do projeto:
-   ``sh
+   ``
    git clone https://github.com/AleffSSouza/Zenlife
    ``
 2. Navegue até a pasta do projeto e instale o node se ja estiver dentro da pasta:
