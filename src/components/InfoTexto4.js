@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import intImage1 from "../assets/roendo.png";
-
+import intImage1 from "../assets/anciedade.jpeg";
 
 
 const Section2Container = styled.section`
@@ -12,7 +11,7 @@ const Section2Container = styled.section`
   align-items: center;
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-color:#031634;
+  Background-color:#031634;
 
 `;
 
@@ -64,13 +63,12 @@ const Informacao = styled.div`
   }
 `;
 
-
 const InformacaoH1 = styled.h1`
-color: #BLACK;
-font-family: Blippo, fantasy;
-font-size: 70px;
-
-  
+position: relative;
+text-align: center;
+font-size: 3rem; 
+font-weight: bold;
+font-family: Asap;
 `;
 
 const InformacaoH2 = styled.h2`
@@ -80,9 +78,10 @@ const InformacaoH2 = styled.h2`
   justify-content: center;
 `;
 
+
 const InformacaoP = styled.p`
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,26 +104,31 @@ function Informacoes() {
     <Section2Container>
       <InformacoesStyle>
         <Informacao>
-          <BoxIntImg src={intImage1} alt="" />
-        </Informacao>
-        <Informacao>
-          <InformacaoH1>Resultado questionário</InformacaoH1>
+          <InformacaoH1>Diagnosticos Anciedade</InformacaoH1>
           <InformacaoP>
-            Se você realizou o questionário de sintomas de ansiedade e está se perguntando o que os resultados significam, aqui está uma análise para ajudá-lo:
+          <ul>
+              <InformacaoH2> Sinais e sintomas da Anciedade</InformacaoH2>
+              A ansiedade é um sentimento natural dos seres humanos que permite antecipar situações de risco e preparar para os desafios diários. No entanto, quando essa emoção se torna muito intensa, com preocupações desproporcionais aos problemas e de forma contínua, ela se transforma em um transtorno. Esse transtorno pode interferir no descanso e desencadear sintomas específicos.
+              <li>Preocupações, tensões ou medos exagerados</li>
+              <li>Sensação contínua de que um desastre ou algo muito ruim vai acontecer</li>
+              <li>Medo extremo de algum objeto, de ser humilhado publicamente ou de uma situação em particular </li>
+              <li>Falta de controle sobre pensamentos, imagens ou atitudes, que se repetem independentemente da vontade</li>
+              <li>Pavor depois de uma situação muito difícil</li>
+              <li>Tensão muscular</li>
+              <li>Intensificação ou surgimento de dores pelo corpo</li>
+              <li>Insônia ou sono em excesso;</li>
+              <li>Dificuldade para se desconectar dos problemas e para dormir </li>
+              <li>Alterações no funcionamento do intestino</li>
 
-            Se a soma dos seus valores está entre 0 e 10, isso sugere que você está dentro do limite mínimo de ansiedade. Isso significa que você pode estar experimentando alguns sintomas de ansiedade, mas eles não estão causando um impacto significativo em sua vida diária.
+              O diagnóstico de ansiedade geralmente é feito por um psiquiatra ou psicólogo. O processo envolve uma avaliação cuidadosa dos sintomas, histórico médico e informações sobre a vida do paciente.
+            </ul>
 
-            Se sua soma está entre 11 e 19, isso indica ansiedade leve. Você pode estar enfrentando sintomas que são perceptíveis e podem estar causando um desconforto leve, mas ainda assim gerenciável.
-
-            Para aqueles com uma soma entre 20 e 30, isso sugere ansiedade moderada. Neste ponto, os sintomas estão começando a interferir mais significativamente em sua vida cotidiana e podem requerer atenção e intervenção para ajudar a reduzir o impacto.
-
-            Se sua soma é entre 31 e 63, isso indica ansiedade grave. Nesse estágio, os sintomas estão causando um impacto significativo em sua vida e bem-estar, e é importante buscar apoio profissional para ajudar a lidar com a ansiedade.
-
-            Independentemente do resultado, é importante lembrar que a ansiedade é uma condição comum e tratável. Se você estiver enfrentando sintomas de ansiedade, não hesite em procurar ajuda de um profissional de saúde mental qualificado. Eles podem oferecer apoio, orientação e tratamentos para ajudá-lo a lidar com seus sintomas e melhorar sua qualidade de vida.
 
           </InformacaoP>
         </Informacao>
-
+        <Informacao>
+          <BoxIntImg src={intImage1} alt="" />
+        </Informacao>
       </InformacoesStyle>
     </Section2Container>
   );

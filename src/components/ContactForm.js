@@ -28,12 +28,7 @@ const ImageContainer = styled.div`
     }
 `
 const Form = styled.form`
-// background: rgba( 0, 150, 255, 1 );
-// box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-// backdrop-filter: blur( 20px );
-// -webkit-backdrop-filter: blur( 20px );
-// border-radius: 10px;
-// border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 `
 
 const Input = styled.input`
@@ -60,23 +55,23 @@ const Button = styled.button`
     }
 `
 
-function ContactPage(){
-    return(
-            <ContactContainer>
-                <FormContainer>
-                    <Form>
-                        <SearchInput type="text" placeholder="Nome" />
-                        <SearchInput type="email" placeholder="E-mail" />
-                        <SearchInput type="text" placeholder= "Assunto" />
-                        <SearchInput type="text" placeholder= "Celular" />
-                        <SearchInput type="textarea" placeholder= "Mensagem" />
-                        <Button type="submit">Enviar</Button>
-                    </Form>    
-                        {/* <ImageContainer>
+function ContactPage() {
+    return (
+        <ContactContainer>
+            <FormContainer>
+                <Form>
+                    <SearchInput type="text" placeholder="Nome" />
+                    <SearchInput type="email" placeholder="E-mail" />
+                    <SearchInput type="text" placeholder="Assunto" />
+                    <SearchInput type="text" placeholder="Celular" />
+                    <SearchInput type="textarea" placeholder="Mensagem" />
+                    <Button type="submit">Enviar</Button>
+                </Form>
+                {<ImageContainer>
                             <img src={ImagemDireita} alt="Descrição da Imagem" />
-                        </ImageContainer> */}
-                </FormContainer>
-            </ContactContainer>
+                        </ImageContainer> }
+            </FormContainer>
+        </ContactContainer>
     )
 }
 

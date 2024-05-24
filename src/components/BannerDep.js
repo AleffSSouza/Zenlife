@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BackImage from "../assets/fundoprojetodep1.jpg"
+import BackImage from "../assets/depoimento.jpg"
 
 const BannerContainer = styled.div`
     background-image: url(${BackImage});
@@ -18,13 +18,21 @@ const BannerContainer = styled.div`
     }
 `;
 
+const Titulo = styled.p`
+color: #fff;
+text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.50);
+font-family: Blippo, fantasy;
+font-size: 100px;
+`
 
-function Banner(){
-    return(
+
+
+function Banner() {
+    return (
         <BannerContainer>
-            <p>ZEN LIFE</p>
+            <Titulo>Depoimentos</Titulo>
         </BannerContainer>
-        
+
     );
 }
 

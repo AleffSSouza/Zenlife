@@ -121,28 +121,11 @@ function Informacoes() {
     <Section2Container>
       <InformacoesStyle>
         <Informacao>
-          <InformacaoH1>Principais Causas da Depressão
-</InformacaoH1>
+          <InformacaoH1>Principais Causas da Depressão e ansiedade</InformacaoH1>
           <InformacaoP>
-<ul> 
-<li>Fatores Biológicos:</li>
-<li>Neuroquímica: Desequilíbrios nos neurotransmissores, como serotonina, dopamina e norepinefrina, estão associados à depressão.</li>
-<li>Genética: Há uma predisposição genética para a depressão, com histórico familiar aumentando o risco.</li>
-<li>Fatores Psicológicos:</li>
-<li>Traumas e Abusos: Experiências traumáticas, como abuso emocional, físico ou sexual, podem contribuir significativamente para o desenvolvimento da depressão.</li>
-<li>Estresse Crônico: Estressores contínuos, como problemas financeiros, conflitos familiares ou pressão no trabalho, podem levar à depressão.</li>
-<li>Fatores Sociais:</li>
-<li>Isolamento Social: A falta de apoio social e conexões significativas pode aumentar o risco de depressão.</li>
-<li>⦁	Problemas Relacionais: Conflitos interpessoais, divórcio ou a perda de um ente querido podem ser gatilhos para a depressão.</li>
-
-
-
-
-
-
-</ul>
+            A depressão é um transtorno mental caracterizado por uma tristeza persistente e perda de interesse ou prazer em atividades anteriormente apreciadas. Pode afetar significativamente a maneira como uma pessoa se sente, pensa e lida com as atividades diárias.
           </InformacaoP>
-          <Button to="/InfoBloco1">
+          <Button to="/infobloco1">
             Saiba mais
             <Icon viewBox="0 0 24 24" class="icon">
               <path clip-rule="evenodd"
@@ -152,11 +135,11 @@ function Informacoes() {
           </Button>
         </Informacao>
         <Informacao>
-          <InformacaoH1>A ODS 3, parte dos Objetivos de Desenvolvimento Sustentável da ONU,</InformacaoH1>
+          <InformacaoH1>Diagnóstico
+          </InformacaoH1>
           <InformacaoP>
-          concentra-se na promoção da saúde e do bem-estar, incluindo a saúde mental. Seu objetivo é assegurar uma vida saudável e promover o bem-estar para todas as pessoas, em todas as idades. Isso inclui acesso equitativo a serviços de saúde de qualidade, prevenção de doenças, redução da mortalidade materna e infantil, combate às doenças transmissíveis, como HIV/AIDS e malária, e promoção da saúde mental. A ODS 3 busca garantir que todos tenham acesso a serviços de saúde mental adequados, reduzindo o estigma em torno das questões de saúde mental e promovendo a conscientização e o suporte emocional para aqueles que precisam.
-          </InformacaoP>
-          <Button to="/intuitos">
+            Para ser diagnosticado com depressão, os sintomas devem estar presentes por pelo menos duas semanas e representar uma mudança em relação ao funcionamento anterior. O diagnóstico é geralmente feito por um profissional de saúde mental, como um psicólogo ou psiquiatra, que pode utilizar critérios específicos, como os do Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5).          </InformacaoP>
+          <Button to="/infobloco2">
             Saiba mais
             <Icon viewBox="0 0 24 24" class="icon">
               <path clip-rule="evenodd"
@@ -166,10 +149,9 @@ function Informacoes() {
           </Button>
         </Informacao>
         <InformacaoLast>
-          <InformacaoH1>A ODS 3, parte dos Objetivos de Desenvolvimento Sustentável da ONU,</InformacaoH1>
+          <InformacaoH1>Recomendações de tratamento</InformacaoH1>
           <InformacaoP>
-          concentra-se na promoção da saúde e do bem-estar, incluindo a saúde mental. Seu objetivo é assegurar uma vida saudável e promover o bem-estar para todas as pessoas, em todas as idades. Isso inclui acesso equitativo a serviços de saúde de qualidade, prevenção de doenças, redução da mortalidade materna e infantil, combate às doenças transmissíveis, como HIV/AIDS e malária, e promoção da saúde mental. A ODS 3 busca garantir que todos tenham acesso a serviços de saúde mental adequados, reduzindo o estigma em torno das questões de saúde mental e promovendo a conscientização e o suporte emocional para aqueles que precisam.
-
+            Aqui estão as principais estratégias de tratamento. Como no caso da depressão, o tratamento da ansiedade deve ser individualizado e supervisionado por profissionais de saúde. É importante que as pessoas com sintomas de ansiedade procurem ajuda médica para obter um diagnóstico adequado e um plano de tratamento eficaz.
           </InformacaoP>
           <Button to="/intuitos">
             Saiba mais

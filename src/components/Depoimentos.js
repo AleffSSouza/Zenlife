@@ -7,6 +7,7 @@ const Section2Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  Background-image: #white;
 `;
 
 const InformacoesStyle = styled.div`
@@ -46,6 +47,7 @@ const Informacao = styled.div`
   flex-direction: column;
   border-right: gray solid;
   padding: 0 20px;
+
   @media (max-width: 768px) {
     width: 100%;
     border-right: none;
@@ -57,7 +59,6 @@ const Informacao = styled.div`
   }
 `;
 
-
 const InformacaoH1 = styled.h1`
   font-size: 35px;
   display: flex;
@@ -65,38 +66,29 @@ const InformacaoH1 = styled.h1`
   justify-content: center;
 `;
 
-const InformacaoH2 = styled.h2`
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
 const InformacaoP = styled.p`
   width: 100%;
-  font-size: 15px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
 `;
 
-
 function Informacoes() {
   return (
     <Section2Container>
       <InformacoesStyle>
         <Informacao>
-          <InformacaoH1>Aqui Vemos os Depoimentos das pessoas como apoio por um cuidado com especialistas parceiros</InformacaoH1>
+          <InformacaoH1>
+            Depoimentos de Pessoas que Encontraram Apoio com Nossos Especialistas Parceiros</InformacaoH1>
           <InformacaoP>
-          A ODS 3, ou Objetivo de Desenvolvimento Sustentável número 3, visa assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades. Dentro deste objetivo, a saúde mental é um aspecto crucial, pois afeta diretamente a qualidade de vida das pessoas.
-          </InformacaoP>
+            A jornada para o bem-estar mental pode ser desafiadora, mas contar com o apoio de especialistas dedicados faz toda a diferença. Aqui, compartilhamos os depoimentos de pessoas que encontraram esperança, suporte e transformação através do cuidado oferecido por nossos parceiros especializados. Suas histórias de superação não apenas inspiram, mas também demonstram a importância de buscar ajuda profissional.          </InformacaoP>
         </Informacao>
         <Informacao>
-          <InformacaoH1>Especialistas pareceiros tomam conta de você para que o pior não aconteça</InformacaoH1>
+          <InformacaoH1>Nossos Especialistas Parceiros Cuidam de Você para Prevenir Problemas Maiores</InformacaoH1>
           <InformacaoP>
-          Para abordar esse tema, uma página de depoimentos pode servir como um valioso suporte emocional. Ao compartilhar experiências pessoais sobre saúde mental, as pessoas podem encontrar conforto ao perceberem que não estão sozinhas em seus desafios. Essa comunidade de apoio proporciona um espaço seguro para expressar sentimentos, buscar orientação e encontrar formas de enfrentar as dificuldades, contribuindo assim para a promoção da saúde mental e o alcance dos objetivos da ODS 3.
-          </InformacaoP>
+            Na jornada da vida, enfrentamos desafios que podem nos deixar vulneráveis ​​às vezes. É nessas horas que contar com o suporte adequado faz toda a diferença. Nossos especialistas parceiros estão aqui para garantir que você receba o cuidado necessário para prevenir problemas maiores antes que eles aconteçam.          </InformacaoP>
         </Informacao>
 
       </InformacoesStyle>
@@ -106,20 +98,3 @@ function Informacoes() {
 
 export default Informacoes;
 
-
-
-
-{/* <MainContainer>
-<TextMain>
-  <TextMainH1>Aqui Vemos os Depoimentos</TextMainH1>
-  <TextMainH2>das pessoas como apoio por um cuidado com especialistas parceiros.</TextMainH2>
-  <TextMainP>
-    A ODS 3, ou Objetivo de Desenvolvimento Sustentável número 3, visa assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades. Dentro deste objetivo, a saúde mental é um aspecto crucial, pois afeta diretamente a qualidade de vida das pessoas.
-  </TextMainP>
-  <TextMainP>
-  Para abordar esse tema, uma página de depoimentos pode servir como um valioso suporte emocional. Ao compartilhar experiências pessoais sobre saúde mental, as pessoas podem encontrar conforto ao perceberem que não estão sozinhas em seus desafios. Essa comunidade de apoio proporciona um espaço seguro para expressar sentimentos, buscar orientação e encontrar formas de enfrentar as dificuldades, contribuindo assim para a promoção da saúde mental e o alcance dos objetivos da ODS 3.
-  </TextMainP>
-  <img src="../assets/ong1.png" alt="" width="100%" height="auto" />
-</TextMain>
-</MainContainer>
-); */}

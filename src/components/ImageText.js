@@ -80,16 +80,15 @@ align-self: center;
 
 
 
-function ImageText({images}){
-    return(
+function ImageText({ images }) {
+    return (
         <Container>
             {images.map((image, index) => (
-            <ImageContainer key={index}>
-                <img src={image.src} alt={image.alt} />
-                <Text>{image.text}</Text>
-                <Button as="a" href="https://www.example.com" >Saiba Mais</Button>
-
-            </ImageContainer>
+                <ImageContainer key={index}>
+                    <img src={image.src} alt={image.alt} />
+                    <Text>{image.text}</Text>
+                    <Button as="a" href="https://www.example.com" >Saiba Mais</Button>
+                </ImageContainer>
             ))}
         </Container>
     );

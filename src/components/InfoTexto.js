@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import intImage1 from "../assets/roendo.png";
-
+import intImage1 from "../assets/tristonho.jpeg";
 
 
 const Section2Container = styled.section`
@@ -12,7 +11,6 @@ const Section2Container = styled.section`
   align-items: center;
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-color:#031634;
 
 `;
 
@@ -64,13 +62,12 @@ const Informacao = styled.div`
   }
 `;
 
-
 const InformacaoH1 = styled.h1`
-color: #BLACK;
-font-family: Blippo, fantasy;
-font-size: 70px;
-
-  
+position: relative;
+text-align: center;
+font-size: 3rem; /* use relative font size */
+font-weight: bold;
+font-family: Asap;
 `;
 
 const InformacaoH2 = styled.h2`
@@ -82,7 +79,7 @@ const InformacaoH2 = styled.h2`
 
 const InformacaoP = styled.p`
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,20 +105,22 @@ function Informacoes() {
           <BoxIntImg src={intImage1} alt="" />
         </Informacao>
         <Informacao>
-          <InformacaoH1>Resultado questionário</InformacaoH1>
+          <InformacaoH1>Principais Causas da Depressão e ansiedade</InformacaoH1>
           <InformacaoP>
-            Se você realizou o questionário de sintomas de ansiedade e está se perguntando o que os resultados significam, aqui está uma análise para ajudá-lo:
+            <ul>
 
-            Se a soma dos seus valores está entre 0 e 10, isso sugere que você está dentro do limite mínimo de ansiedade. Isso significa que você pode estar experimentando alguns sintomas de ansiedade, mas eles não estão causando um impacto significativo em sua vida diária.
-
-            Se sua soma está entre 11 e 19, isso indica ansiedade leve. Você pode estar enfrentando sintomas que são perceptíveis e podem estar causando um desconforto leve, mas ainda assim gerenciável.
-
-            Para aqueles com uma soma entre 20 e 30, isso sugere ansiedade moderada. Neste ponto, os sintomas estão começando a interferir mais significativamente em sua vida cotidiana e podem requerer atenção e intervenção para ajudar a reduzir o impacto.
-
-            Se sua soma é entre 31 e 63, isso indica ansiedade grave. Nesse estágio, os sintomas estão causando um impacto significativo em sua vida e bem-estar, e é importante buscar apoio profissional para ajudar a lidar com a ansiedade.
-
-            Independentemente do resultado, é importante lembrar que a ansiedade é uma condição comum e tratável. Se você estiver enfrentando sintomas de ansiedade, não hesite em procurar ajuda de um profissional de saúde mental qualificado. Eles podem oferecer apoio, orientação e tratamentos para ajudá-lo a lidar com seus sintomas e melhorar sua qualidade de vida.
-
+              <li><b>Genética:</b> Há uma predisposição genética para a depressão e anciedade, com histórico familiar aumentando o risco.</li>
+              <li><b>Neuroquímica:</b> Desequilíbrios nos neurotransmissores, como serotonina, dopamina e norepinefrina, estão associados à depressão.</li>
+              <li><b>Hormônios:</b> Alterações hormonais, como aquelas associadas ao pós-parto, menopausa ou problemas na tireoide, podem desencadear depressão.</li>
+              <li><b>Fatores Psicológicos:</b>
+                <b>Traumas e Abusos:</b> Experiências traumáticas, como abuso emocional, físico ou sexual, podem contribuir significativamente para o desenvolvimento da depressão e anciedade de alguma maneira.
+                <b>Estresse Crônico:</b> Estressores contínuos, como problemas financeiros, conflitos familiares ou pressão no trabalho, podem levar à anciedade posteriormente a depressão.
+                <b>Baixa Autoestima:</b> Padrões de pensamento negativos e baixa autoestima estão frequentemente.</li>
+              <li><b>Fatores Sociais:</b>
+                <b>Isolamento Social:</b> A falta de apoio social e conexões significativas pode aumentar o risco.
+                <b>Problemas Relacionais:</b> Conflitos interpessoais, divórcio ou a perda de um ente querido podem ser gatilhos.
+                <b>Eventos de Vida:</b> Eventos estressantes ou mudanças significativas na vida, como desemprego ou mudança de residência, podem desencadear episódios depressivos e crises de anciedade.</li>
+            </ul>
           </InformacaoP>
         </Informacao>
 

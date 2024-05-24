@@ -1,4 +1,4 @@
-import REACT, {useState, useEffect} from 'react'
+import REACT, { useState, useEffect } from 'react'
 import Modal from 'react-modal'
 import axios from 'axios'
 import styled from 'styled-components'
@@ -57,30 +57,30 @@ const CharacterCount = styled.div`
     margin-bottom: 10px;
     color: #666;
 `
-function EditDepoimentoModal({isOpen, onRequestClose, depoimento, setRefresh, setEditDepoimento}){
+function EditDepoimentoModal({ isOpen, onRequestClose, depoimento, setRefresh, setEditDepoimento }) {
     const [nome, setNome] = useState('')
     const [descricao, setDescricao] = useState('')
     const [imagem, setImagem] = useState(null)
     const MAX_DESC_LENGTH = 500;
 
-    useEffect(() =>{
-        if (depoimento){
+    useEffect(() => {
+        if (depoimento) {
             setNome(depoimento.nome)
             setDescricao(depoimento.texto)
         }
     }, [depoimento])
 
-    const handleSubmit = async(e) =>{
+    const handleSubmit = async (e) => {
         e.preventDefault()
         const formData = new FormData()
         if (nome) formData.append('nome', nome)
         if (descricao) formData.append('texto', descricao)
         if (imagem) formData.append('foto', imagem)
 
-        try{
+        try {
             const response = await axios.put(`http://localhost:5000/api/depoimentos/${depoimento.id}`, formData, {
                 headers: {
-                    'Content-Type':'multipart/form-data',
+                    'Content-Type': 'multipart/form-data',
                 }
             })
             setRefresh((prev) => !prev)
@@ -90,22 +90,22 @@ function EditDepoimentoModal({isOpen, onRequestClose, depoimento, setRefresh, se
             console.error('Erroa ao atualizar os dados', error)
         }
     }
-    const handleImageChange = (event) =>{
+    const handleImageChange = (event) => {
         setImagem(event.target.files[0])
     }
     const handleDescricaoChange = (e) => {
         const texto = e.target.value
-        if (texto.length <= MAX_DESC_LENGTH){
+        if (texto.length <= MAX_DESC_LENGTH) {
             setDescricao(texto)
         }
     }
-    return(
+    return (
         <Modal
             isOpen={isOpen}
             onRequestClose={onRequestClose}
             contentLabel="Editar Depoimento"
             style={{
-                content:{
+                content: {
                     top: '50%',
                     left: '50%',
                     right: 'auto',
@@ -116,7 +116,7 @@ function EditDepoimentoModal({isOpen, onRequestClose, depoimento, setRefresh, se
                     padding: '0',
                     overflow: 'visible',
                 },
-                overlay:{
+                overlay: {
                     backgroundColor: 'rgba(0, 0, 0, 0.5)',
                 },
             }}

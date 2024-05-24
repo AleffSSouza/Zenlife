@@ -4,8 +4,14 @@ import DepoimentoList from '../components/DepoimentoList'
 import Header from '../components/Header'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
+import styled from "styled-components";
 
 
+const Titulo = styled.h1`
+color: #BLACK;
+font-family: Blippo, fantasy;
+font-size: 50px;
+text-align: center;`
 
 function CadastroPage(){
     const [refresh, setRefresh] = useState(false)
@@ -13,9 +19,9 @@ function CadastroPage(){
         <div>
             <Header />
             {/* <Banner /> */}
-            <h1>Cadastro de depoimentos</h1>
+            <Titulo>Cadastro de depoimentos</Titulo>
             <DepoimentoForm setRefresh={setRefresh}/>
-            <h1>Depoimentos Cadastrados</h1>
+            <Titulo>Depoimentos Cadastrados</Titulo>
             <DepoimentoList refresh={refresh} setRefresh={setRefresh}/>
             <Footer/>
         </div>

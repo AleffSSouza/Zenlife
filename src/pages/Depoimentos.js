@@ -27,8 +27,7 @@ function Persona(){
             <Header/>
             <BannerDep />
             <Depoimentos/>
-            <DepoimentosCard characters={characters}/>
-          
+            <DepoimentosCard characters={characters}/>         
             <Footer/>
         </div>
     );

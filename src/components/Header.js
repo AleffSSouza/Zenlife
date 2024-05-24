@@ -9,11 +9,10 @@ const HeaderContainer = styled.header`
     background-color: #7dbde4;
 `;
 
-
-function Header(){
-    return(
+function Header() {
+    return (
         <HeaderContainer>
-            <NavBar/>
+            <NavBar />
         </HeaderContainer>
     );
 }

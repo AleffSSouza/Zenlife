@@ -23,12 +23,11 @@ const QuoteContainer = styled.section`
     
 `;
 
-function QuoteSection(){
-    return(
+function QuoteSection() {
+    return (
         <QuoteContainer>
             <blockquote>
                 ONGs ODS 3
-
             </blockquote>
         </QuoteContainer>
     );

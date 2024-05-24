@@ -7,6 +7,7 @@ export const PageContainer = styled.div`
   padding: 50px 20px;
   max-width: 1000px;
   margin: auto;
+  
 `;
 
 export const FormContainer = styled.div`
@@ -24,6 +25,7 @@ export const ImageContainer = styled.div`
     height: 400px;
     object-fit: cover;
     border-radius: 5px;
+
   }
 `;
 
@@ -32,6 +34,8 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  
+  
 `;
 
 export const Input = styled.input`
@@ -41,6 +45,7 @@ export const Input = styled.input`
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  
 `;
 
 export const Textarea = styled.textarea`
@@ -54,7 +59,7 @@ export const Textarea = styled.textarea`
 
 export const Button = styled.button`
   padding: 10px 20px;
-  background-color: #007BFF;
+  background-color: #041d25;
   color: #fff;
   border: none;
   border-radius: 4px;

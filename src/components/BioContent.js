@@ -91,7 +91,7 @@ function BioContent() {
   return (
     <div>
       <Header />
-      <Bloco1/>
+      <Bloco1 />
       <Container>
         <Content>
           <Image src={`http://localhost:5000/uploads/${character.foto}`} alt={character.nome} />

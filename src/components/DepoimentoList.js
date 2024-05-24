@@ -12,7 +12,7 @@ import {
     ActionButton
 } from '../styles/DepoimentosListStyle'
 
-function DepoimentoList({refresh, setRefresh}) {
+function DepoimentoList({ refresh, setRefresh }) {
     const [depoimentos, setDepoimentos] = useState([])
     const [editDepoimento, setEditDepoimento] = useState(null)
     const [isModalOpen, setIsModalOpen] = useState(false)
