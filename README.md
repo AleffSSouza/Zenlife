@@ -40,7 +40,7 @@ Para configurar e executar o projeto localmente, siga estas etapas:
    git clone https://github.com/AleffSSouza/Zenlife
    ``
 2. Navegue até a pasta do projeto e instale o node se ja estiver dentro da pasta:
-   ``sh
+   ``
    cd Zenlife
    npm install
    ``
