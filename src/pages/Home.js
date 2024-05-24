@@ -14,6 +14,7 @@ import styled from "styled-components";
 import Noticias from '../components/Noticias';
 import Informacoes from '../components/Informacoes';
 import CarouselOng from '../components/CarouselOng'
+import Icon from '../components/icon';
 
 
 const Cards = styled.div`
@@ -123,6 +124,7 @@ function Home(){
             <Card id="r2a41vATOwU"/>
             <Card id="l16BskCD0cM"/>
             </Cards> }
+            <Icon></Icon>
             <Footer />
 
         </div>
