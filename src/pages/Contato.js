@@ -26,7 +26,6 @@ function Contato(){
     return(
         <div>
             <Header/>
-            <titulo>Entre em contato conosco</titulo>
             <ContactForm />
             <Footer/>
         </div>
