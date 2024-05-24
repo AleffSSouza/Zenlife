@@ -45,13 +45,13 @@ Para configurar e executar o projeto localmente, siga estas etapas:
    npm install
    ``
 3. Instale as dependencias necessarias:
-   ``sh
+   ``
    npm i  react-dom
    npm i styled-components
    npm i swiper
    ``
 4. Inicie o terminal na pasta do projeto, e rode os comandos para iniciar o Back-end e front end.
-   ``sh
+   ``
    cd zenlife(caso já não abra na pasta)
    npm start
    cd Backend
