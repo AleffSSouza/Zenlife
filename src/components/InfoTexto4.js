@@ -104,10 +104,10 @@ function Informacoes() {
     <Section2Container>
       <InformacoesStyle>
         <Informacao>
-          <InformacaoH1>Diagnosticos Anciedade</InformacaoH1>
+          <InformacaoH1>Diagnósticos Ansiedade</InformacaoH1>
           <InformacaoP>
           <ul>
-              <InformacaoH2> Sinais e sintomas da Anciedade</InformacaoH2>
+              <InformacaoH2> Sinais e sintomas da Ansiedade</InformacaoH2>
               A ansiedade é um sentimento natural dos seres humanos que permite antecipar situações de risco e preparar para os desafios diários. No entanto, quando essa emoção se torna muito intensa, com preocupações desproporcionais aos problemas e de forma contínua, ela se transforma em um transtorno. Esse transtorno pode interferir no descanso e desencadear sintomas específicos.
               <li>Preocupações, tensões ou medos exagerados</li>
               <li>Sensação contínua de que um desastre ou algo muito ruim vai acontecer</li>

@@ -109,17 +109,17 @@ function Informacoes() {
           <InformacaoP>
             <ul>
 
-              <li><b>Genética:</b> Há uma predisposição genética para a depressão e anciedade, com histórico familiar aumentando o risco.</li>
+              <li><b>Genética:</b> Há uma predisposição genética para a depressão e ansiedade, com histórico familiar aumentando o risco.</li>
               <li><b>Neuroquímica:</b> Desequilíbrios nos neurotransmissores, como serotonina, dopamina e norepinefrina, estão associados à depressão.</li>
               <li><b>Hormônios:</b> Alterações hormonais, como aquelas associadas ao pós-parto, menopausa ou problemas na tireoide, podem desencadear depressão.</li>
               <li><b>Fatores Psicológicos:</b>
-                <b>Traumas e Abusos:</b> Experiências traumáticas, como abuso emocional, físico ou sexual, podem contribuir significativamente para o desenvolvimento da depressão e anciedade de alguma maneira.
-                <b>Estresse Crônico:</b> Estressores contínuos, como problemas financeiros, conflitos familiares ou pressão no trabalho, podem levar à anciedade posteriormente a depressão.
+                <b>Traumas e Abusos:</b> Experiências traumáticas, como abuso emocional, físico ou sexual, podem contribuir significativamente para o desenvolvimento da depressão e ansiedade de alguma maneira.
+                <b>Estresse Crônico:</b> Estressores contínuos, como problemas financeiros, conflitos familiares ou pressão no trabalho, podem levar à ansiedade posteriormente a depressão.
                 <b>Baixa Autoestima:</b> Padrões de pensamento negativos e baixa autoestima estão frequentemente.</li>
               <li><b>Fatores Sociais:</b>
                 <b>Isolamento Social:</b> A falta de apoio social e conexões significativas pode aumentar o risco.
                 <b>Problemas Relacionais:</b> Conflitos interpessoais, divórcio ou a perda de um ente querido podem ser gatilhos.
-                <b>Eventos de Vida:</b> Eventos estressantes ou mudanças significativas na vida, como desemprego ou mudança de residência, podem desencadear episódios depressivos e crises de anciedade.</li>
+                <b>Eventos de Vida:</b> Eventos estressantes ou mudanças significativas na vida, como desemprego ou mudança de residência, podem desencadear episódios depressivos e crises de ansiedade.</li>
             </ul>
           </InformacaoP>
         </Informacao>

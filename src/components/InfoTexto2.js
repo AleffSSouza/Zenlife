@@ -130,7 +130,7 @@ function Informacoes() {
               <li>Pensamentos negativos, como vontade de se machucar, morte e suicídio; </li>
               <li>Movimentos/ falas mais lentos ou acelerados.</li>
 
-              É importante destacar que o fato de apresentar um ou mais dos sinais e sintomas listados, não significa, necessariamente, que a pessoa esteja com depressão. Somente um médico pode avaliar o caso, fazer o diagnóstico e indicar o tratamento mais adequado, mas que é impórtante ficar atento.
+              É importante destacar que o fato de apresentar um ou mais dos sinais e sintomas listados, não significa, necessariamente, que a pessoa esteja com depressão. Somente um médico pode avaliar o caso, fazer o diagnóstico e indicar o tratamento mais adequado, mas que é importante ficar atento.
             </ul>
 
 

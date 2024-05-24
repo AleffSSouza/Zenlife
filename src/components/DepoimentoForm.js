@@ -10,7 +10,7 @@ const Form = styled.form`
   padding: 20px;
   border-radius: 20px;
   position: relative;
-  background-color: #041d25;
+  background-color: #376097;
   color: #fff;
   border: 1px solid #333;
   top: 10%;
@@ -23,10 +23,10 @@ const Form = styled.form`
 `;
 
 const Input = styled.input`
-  background-color: #333;
+  background-color: white;
   color: #fff;
   width: 100%;
-  padding: 20px 05px 05px 10px;
+  padding: 20px 05px 05px ;
   outline: 0;
   border: 1px solid rgba(105, 105, 105, 0.397);
   border-radius: 10px;
@@ -34,10 +34,10 @@ const Input = styled.input`
 `;
 
 const Textarea = styled.textarea`
-  background-color: #333;
+  background-color: white;
   color: #fff;
   width: 100%;
-  padding: 20px 05px 05px 10px;
+  padding: 20px 05px 05px ;
   outline: 0;
   border: 1px solid rgba(105, 105, 105, 0.397);
   border-radius: 10px;
@@ -45,7 +45,7 @@ const Textarea = styled.textarea`
 `;
 
 const FileInput = styled.input`
-  background-color: #333;
+  background-color: white;
   color: #fff;
   padding: 10px;
   border: 1px solid rgba(105, 105, 105, 0.397);
@@ -127,7 +127,7 @@ function DepoimentoForm({ fetchDepoimentos }) {
       <Textarea
         value={descricao}
         onChange={handleDescricaoChange}
-        placeholder="Descrição do depoimentos"
+        placeholder="Descrição do depoimento"
         required
       />
       <div>{MAX_DESC_LENGTH - descricao.length} caracteres restantes</div>

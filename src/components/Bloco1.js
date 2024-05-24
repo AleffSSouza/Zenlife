@@ -107,7 +107,7 @@ const Main = () => {
 
               <li>Disponibilizar informações sobre o as ongs e maneiras de se cuidar sobre a saúde mental  </li>
 
-              <li>Promover a visibilidade a esse problema e ongs que prestao esse serviço </li>
+              <li>Promover a visibilidade a esse problema e ongs que prestam esse serviço </li>
 
               <li>Contribuir para a inclusão social e o desenvolvimento social pessoal dos indivíduos atendidas  </li>
             </ul>
