@@ -18,10 +18,10 @@ const Section4Container = styled.section`
   }
   @media (max-width: 768px) {
     flex-direction: column;
-    height: 200vh;
+    height: 300vh;
   }
   @media (max-width: 480px) {
-    height: 250vh;
+    height: 400vh;
   }
   @media (max-width: 320px) {
     height: 300vh;
