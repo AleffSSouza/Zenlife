@@ -1,6 +1,6 @@
 ## Descrição
 
-O projeto foi desenvolvido para Constellation Corretora de Seguros, uma empresa que atua no mercado securitário desde 2010 como pessoa jurídica, mas como pessoa física atua desde 2002, prestando serviço a diversas seguradoras. Oferece produtos de seguros em geral, como por exemplo: Seguros de vida, plano de saúde, seguro residencial, automóvel entre outros. O objetivo do site é captar novos clientes, trazer breves informações sobre os produtos de seguro e trazer visibilidade para empresa.
+O projeto foi desenvolvido com o objetivo de divulgar trablaho de ons e prestar um apoio em modo de comunidade aos problemas de anciedade depressão, sendo uma empresa sem fins lucrativos que visa o bem estar de todos de um modo de apoio geral, tentando mostrar informaçãoes que muitas vezes não são dada a total importancia que deveria.
 
 ### Objetivos:
 
@@ -37,7 +37,7 @@ Para configurar e executar o projeto localmente, siga estas etapas:
    ```sh
    git clone https://github.com/AleffSSouza/Zenlife
    ```
-2. Navegue até a pasta do projeto e instale as dependências:
+2. Navegue até a pasta do projeto e instale o node se ja estiver dentro da pasta:
    ```sh
    cd Zenlife
    npm install
