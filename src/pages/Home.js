@@ -107,14 +107,6 @@ function Home(){
             <Noticias/>
             <QuoteSection/>
             <CarouselOng/>
-            {/* <ImageText
-                images={[
-                    {src:IMG1 , alt: "", text: "Zipline" },
-                    {src:IMG2 , alt: "", text: "Gradian Health Systems" },
-                    {src:IMG3 , alt: "", text: "Bravo Tango" },
-                    {src:IMG4 , alt: "", text: "Soy1Soy4" },
-                ]}
-            /> */}
             <Informacoes/>
             {<TitleProjetos><ODS>ODS 3 - Saúde e o bem estar mental</ODS></TitleProjetos>}
             {<Cards>
@@ -124,7 +116,6 @@ function Home(){
             <Card id="4WMH26epLu0"/>
             <Card id="l16BskCD0cM"/>
             </Cards> }
-            <Icon></Icon>
             <Footer />
 
         </div>

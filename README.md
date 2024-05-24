@@ -4,12 +4,11 @@ O projeto foi desenvolvido para Constellation Corretora de Seguros, uma empresa 
 
 ### Objetivos:
 
-- Captar novos clientes
-- Explicar brevemente sobre os produtos oferidos
-- Demonstrar os beneficios da contratação do produto.
-- Permitir que o cliente busque ajuda para assistencia 24 horas.
-- Permitir que o cliente encontre links úteis para serviços relacionados a tabela FIPE, boletim de ocorrência e telefones de emergência.
-
+- Divulgar sobre os problemas de anciedade e depressão, juntamente com ongs que realização um trabalho de apoio.
+- Explicar basicamente sobre elas.
+- Demonstrar as consequencias pertinentes
+- divulgação de noticias para ter conhecimento
+- comunidade aonde pessoas com esses problemas posam desabafar anonimamente ou não, e juntamento com isso ajudar outras pessoas que podem estar passando pelo mesmo probema e arranjar a solução.
 
 ### Front-end
 
@@ -51,11 +50,9 @@ Para configurar e executar o projeto localmente, siga estas etapas:
    ```
 4. Inicie o terminal na pasta do projeto, e rode os comandos para iniciar o Back-end e front end:
    ```sh
- -   **frontend**
  cd zenlife(caso já não abra na pasta)
  npm start
 
--   **Backend**
    cd Backend
    npm run dev
    ```

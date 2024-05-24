@@ -160,14 +160,14 @@ function Noticias() {
             <BoxNoticiasImg src={noticiasImage1} alt="" />
             <BoxNoticiasP>
               Médico fala sobre diferença entre níveis baixos de testosterona e depressão
-              <Button href="https://www.em.com.br/saude/2024/05/6862667-medico-fala-sobre-diferenca-entre-niveis-baixos-de-testosterona-e-depressao.html"> <p>Clique aqui para a noticia</p></Button>
+              <Button href="https://www.em.com.br/saude/2024/05/6862667-medico-fala-sobre-diferenca-entre-niveis-baixos-de-testosterona-e-depressao.html" target='_blank'> <p>Clique aqui para a noticia</p></Button>
             </BoxNoticiasP>
           </BoxNoticias>
           <BoxNoticias>
             <BoxNoticiasImg src={noticiasImage2} alt="" />
             <BoxNoticiasP>
               A onda de agressão a professores no mundo: 'Ficar perto da porta para sair correndo'
-              <Button href="https://www.bbc.com/portuguese/articles/c51n99rp3lpo"> <p>Clique aqui para a noticia</p></Button>
+              <Button href="https://www.bbc.com/portuguese/articles/c51n99rp3lpo" target='_blank'> <p>Clique aqui para a noticia</p></Button>
             </BoxNoticiasP>
           </BoxNoticias>
           <BoxNoticias>
